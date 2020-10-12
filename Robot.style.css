@@ -1,0 +1,97 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color:#457db0;
+  margin:0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+aside#sidebar{
+  float: right;
+  width: 35%;
+  margin-top: 30px;
+}
+
+article#main{
+  float: left;
+  width: 65%;
+}
+
+img{
+ width: 130px;
+ height: 130px;
+}
+
+h2{
+  font-size:37px;
+}
+table{
+  border: 1px dotted black;
+}
+
+h4{
+  color: black;
+  text-decoration: none;
+}
+
+.dark{
+  background-color:#ad2424;
+  /*margin order: top right bottom left*/
+  margin: 10px 0px 10px 0px;
+  padding: 40px 20px 40px 20px;
+  width: 65%;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffff;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*footer*/
+footer {
+  color:black;
+  background-color: #ad2424;
+  text-align:center;
+  padding: 20px;
+  margin-top:20px;
+  }

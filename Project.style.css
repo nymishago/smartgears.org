@@ -1,0 +1,100 @@
+body{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color:#457db0;
+  margin:0;
+}
+
+
+body {
+  background: linear-gradient( #0fb8ad, #2cb5e8);
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 30px;
+}
+
+article#main{
+  float: left;
+  width: 65%;
+}
+
+img{
+ width: 200px;
+ height: 200px;
+}
+
+h2{
+  font-size:37px;
+}
+
+.dark{
+  background-color:#4bc7c9;
+  /*margin order: top right bottom left*/
+  margin: 10px 0px 10px 0px;
+  padding: 40px 20px 40px 20px;
+  width: 65%;
+}
+
+/*footer*/
+footer {
+  color:black;
+  background-color:#ffff;
+  text-align:center;
+  padding: 20px;
+  margin-top:0px;
+  }
